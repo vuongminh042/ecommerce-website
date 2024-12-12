@@ -1,0 +1,16 @@
+{
+  "name": "du-an-tot-nghiep",
+  "version": "1.0.0",
+  "description": "Project Graduation",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
